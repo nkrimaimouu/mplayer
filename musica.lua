@@ -54,8 +54,8 @@ local currentVideo = nil
 local playingVideo = false
 local audioPosition = 0
 local restart_requested = false
-local video_fps = 20
-local monitor_fps = 20
+local video_fps = 60
+local monitor_fps = 60
 local last_rendered_frame = nil
 local dfpwm_bytes_per_second = 6000
 
